@@ -1,0 +1,480 @@
+Feb  1 21:28:53 10.71.60.0 u104653460 Connection from 10.71.60.0 port 18530 on 74.208.57.225 port 22
+Feb  1 21:28:53 10.71.60.0 u104653460 Accepted password for u104653460 from 10.71.60.0 port 18530 ssh2
+Feb  1 21:28:53 10.71.60.0 u104653460 Starting session: subsystem 'sftp' for u104653460 from 10.71.60.0 port 18530 id 0
+Feb  1 21:28:53 10.71.60.0 u104653460 session opened for local user u104653460 from [10.71.60.0]
+Feb  1 21:30:19 10.71.61.0 u104653460 Connection from 10.71.61.0 port 22010 on 74.208.57.225 port 22
+Feb  1 21:30:19 10.71.61.0 u104653460 Accepted password for u104653460 from 10.71.61.0 port 22010 ssh2
+Feb  1 21:30:19 10.71.61.0 u104653460 Connection from 10.71.61.0 port 22012 on 74.208.57.225 port 22
+Feb  1 21:30:19 10.71.61.0 u104653460 Accepted password for u104653460 from 10.71.61.0 port 22012 ssh2
+Feb  1 21:30:19 10.71.61.0 u104653460 Starting session: subsystem 'sftp' for u104653460 from 10.71.61.0 port 22010 id 0
+Feb  1 21:30:19 10.71.61.0 u104653460 session opened for local user u104653460 from [10.71.61.0]
+Feb  1 21:30:19 10.71.61.0 u104653460 Starting session: subsystem 'sftp' for u104653460 from 10.71.61.0 port 22012 id 0
+Feb  1 21:30:19 10.71.61.0 u104653460 session opened for local user u104653460 from [10.71.61.0]
+Feb  1 21:30:20 10.71.61.0 u104653460 open "/.DS_Store" flags READ mode 0666
+Feb  1 21:30:20 10.71.61.0 u104653460 open "/.htaccess" flags READ mode 0666
+Feb  1 21:30:20 10.71.61.0 u104653460 close "/.htaccess" bytes read 107 written 0
+Feb  1 21:30:20 10.71.61.0 u104653460 [10.71.61.0|get|0|107|0|0|0|2f2e6874616363657373|]
+Feb  1 21:30:20 10.71.61.0 u104653460 close "/.DS_Store" bytes read 6148 written 0
+Feb  1 21:30:20 10.71.61.0 u104653460 [10.71.61.0|get|0|6148|0|0|0|2f2e44535f53746f7265|]
+Feb  1 21:30:20 10.71.61.0 u104653460 open "/Readme.txt" flags READ mode 0666
+Feb  1 21:30:20 10.71.61.0 u104653460 open "/changelog.txt" flags READ mode 0666
+Feb  1 21:30:20 10.71.61.0 u104653460 close "/Readme.txt" bytes read 222 written 0
+Feb  1 21:30:20 10.71.61.0 u104653460 [10.71.61.0|get|0|222|0|0|0|2f526561646d652e747874|]
+Feb  1 21:30:20 10.71.61.0 u104653460 close "/changelog.txt" bytes read 2472 written 0
+Feb  1 21:30:20 10.71.61.0 u104653460 [10.71.61.0|get|0|2472|0|0|0|2f6368616e67656c6f672e747874|]
+Feb  1 21:30:20 10.71.61.0 u104653460 open "/index.html" flags READ mode 0666
+Feb  1 21:30:21 10.71.61.0 u104653460 open "/inner-page.html" flags READ mode 0666
+Feb  1 21:30:21 10.71.61.0 u104653460 close "/index.html" bytes read 50211 written 0
+Feb  1 21:30:21 10.71.61.0 u104653460 [10.71.61.0|get|1|50211|0|0|0|2f696e6465782e68746d6c|]
+Feb  1 21:30:21 10.71.61.0 u104653460 close "/inner-page.html" bytes read 8657 written 0
+Feb  1 21:30:21 10.71.61.0 u104653460 [10.71.61.0|get|0|8657|0|0|0|2f696e6e65722d706167652e68746d6c|]
+Feb  1 21:30:21 10.71.61.0 u104653460 open "/portfolio-details.html" flags READ mode 0666
+Feb  1 21:30:21 10.71.61.0 u104653460 open "/assets/.DS_Store" flags READ mode 0666
+Feb  1 21:30:21 10.71.61.0 u104653460 close "/portfolio-details.html" bytes read 10491 written 0
+Feb  1 21:30:21 10.71.61.0 u104653460 [10.71.61.0|get|0|10491|0|0|0|2f706f7274666f6c696f2d64657461696c732e68746d6c|]
+Feb  1 21:30:21 10.71.61.0 u104653460 close "/assets/.DS_Store" bytes read 6148 written 0
+Feb  1 21:30:21 10.71.61.0 u104653460 [10.71.61.0|get|0|6148|0|0|0|2f6173736574732f2e44535f53746f7265|]
+Feb  1 21:30:22 10.71.61.0 u104653460 open "/assets/css/style.css" flags READ mode 0666
+Feb  1 21:30:22 10.71.61.0 u104653460 open "/assets/js/main.js" flags READ mode 0666
+Feb  1 21:30:22 10.71.61.0 u104653460 close "/assets/css/style.css" bytes read 31358 written 0
+Feb  1 21:30:22 10.71.61.0 u104653460 [10.71.61.0|get|0|31358|0|0|0|2f6173736574732f6373732f7374796c652e637373|]
+Feb  1 21:30:22 10.71.61.0 u104653460 close "/assets/js/main.js" bytes read 6333 written 0
+Feb  1 21:30:22 10.71.61.0 u104653460 [10.71.61.0|get|0|6333|0|0|0|2f6173736574732f6a732f6d61696e2e6a73|]
+Feb  1 21:30:22 10.71.61.0 u104653460 open "/assets/img/free.svg" flags READ mode 0666
+Feb  1 21:30:22 10.71.61.0 u104653460 open "/assets/img/pro.mp4" flags READ mode 0666
+Feb  1 21:30:22 10.71.61.0 u104653460 close "/assets/img/free.svg" bytes read 7719 written 0
+Feb  1 21:30:22 10.71.61.0 u104653460 [10.71.61.0|get|0|7719|0|0|0|2f6173736574732f696d672f667265652e737667|]
+Feb  1 21:30:23 10.71.61.0 u104653460 open "/assets/img/hero-img.png" flags READ mode 0666
+Feb  1 21:30:23 10.71.61.0 u104653460 close "/assets/img/hero-img.png" bytes read 68245 written 0
+Feb  1 21:30:23 10.71.61.0 u104653460 [10.71.61.0|get|0|68245|0|0|0|2f6173736574732f696d672f6865726f2d696d672e706e67|]
+Feb  1 21:30:23 10.71.61.0 u104653460 open "/assets/img/skills.png" flags READ mode 0666
+Feb  1 21:30:24 10.71.61.0 u104653460 close "/assets/img/skills.png" bytes read 41740 written 0
+Feb  1 21:30:24 10.71.61.0 u104653460 [10.71.61.0|get|1|41740|0|0|0|2f6173736574732f696d672f736b696c6c732e706e67|]
+Feb  1 21:30:25 10.71.61.0 u104653460 open "/assets/img/cta-bg.jpg" flags READ mode 0666
+Feb  1 21:30:26 10.71.61.0 u104653460 close "/assets/img/cta-bg.jpg" bytes read 212914 written 0
+Feb  1 21:30:26 10.71.61.0 u104653460 [10.71.61.0|get|1|212914|0|0|0|2f6173736574732f696d672f6374612d62672e6a7067|]
+Feb  1 21:30:26 10.71.61.0 u104653460 open "/assets/img/favicon.png" flags READ mode 0666
+Feb  1 21:30:27 10.71.61.0 u104653460 close "/assets/img/favicon.png" bytes read 491 written 0
+Feb  1 21:30:27 10.71.61.0 u104653460 [10.71.61.0|get|1|491|0|0|0|2f6173736574732f696d672f66617669636f6e2e706e67|]
+Feb  1 21:30:27 10.71.61.0 u104653460 open "/assets/img/why-us.png" flags READ mode 0666
+Feb  1 21:30:28 10.71.61.0 u104653460 close "/assets/img/why-us.png" bytes read 87066 written 0
+Feb  1 21:30:28 10.71.61.0 u104653460 [10.71.61.0|get|1|87066|0|0|0|2f6173736574732f696d672f7768792d75732e706e67|]
+Feb  1 21:30:28 10.71.61.0 u104653460 open "/assets/img/.DS_Store" flags READ mode 0666
+Feb  1 21:30:28 10.71.61.0 u104653460 close "/assets/img/pro.mp4" bytes read 106864284 written 0
+Feb  1 21:30:28 10.71.61.0 u104653460 [10.71.61.0|get|6|106864284|0|0|0|2f6173736574732f696d672f70726f2e6d7034|]
+Feb  1 21:30:28 10.71.61.0 u104653460 close "/assets/img/.DS_Store" bytes read 6148 written 0
+Feb  1 21:30:28 10.71.61.0 u104653460 [10.71.61.0|get|0|6148|0|0|0|2f6173736574732f696d672f2e44535f53746f7265|]
+Feb  1 21:30:28 10.71.61.0 u104653460 open "/assets/img/apple-touch-icon.png" flags READ mode 0666
+Feb  1 21:30:28 10.71.61.0 u104653460 close "/assets/img/apple-touch-icon.png" bytes read 1738 written 0
+Feb  1 21:30:28 10.71.61.0 u104653460 [10.71.61.0|get|0|1738|0|0|0|2f6173736574732f696d672f6170706c652d746f7563682d69636f6e2e706e67|]
+Feb  1 21:30:28 10.71.61.0 u104653460 open "/assets/img/clients/amazon.png" flags READ mode 0666
+Feb  1 21:30:29 10.71.61.0 u104653460 close "/assets/img/clients/amazon.png" bytes read 76287 written 0
+Feb  1 21:30:29 10.71.61.0 u104653460 [10.71.61.0|get|1|76287|0|0|0|2f6173736574732f696d672f636c69656e74732f616d617a6f6e2e706e67|]
+Feb  1 21:30:29 10.71.61.0 u104653460 open "/assets/img/clients/Google.png" flags READ mode 0666
+Feb  1 21:30:29 10.71.61.0 u104653460 open "/assets/img/clients/walgreens.png" flags READ mode 0666
+Feb  1 21:30:29 10.71.61.0 u104653460 close "/assets/img/clients/Google.png" bytes read 14275 written 0
+Feb  1 21:30:29 10.71.61.0 u104653460 [10.71.61.0|get|0|14275|0|0|0|2f6173736574732f696d672f636c69656e74732f476f6f676c652e706e67|]
+Feb  1 21:30:29 10.71.61.0 u104653460 open "/assets/img/clients/chase.png" flags READ mode 0666
+Feb  1 21:30:29 10.71.61.0 u104653460 close "/assets/img/clients/walgreens.png" bytes read 78836 written 0
+Feb  1 21:30:29 10.71.61.0 u104653460 [10.71.61.0|get|0|78836|0|0|0|2f6173736574732f696d672f636c69656e74732f77616c677265656e732e706e67|]
+Feb  1 21:30:29 10.71.61.0 u104653460 close "/assets/img/clients/chase.png" bytes read 18114 written 0
+Feb  1 21:30:29 10.71.61.0 u104653460 [10.71.61.0|get|0|18114|0|0|0|2f6173736574732f696d672f636c69656e74732f63686173652e706e67|]
+Feb  1 21:30:29 10.71.61.0 u104653460 open "/assets/img/clients/citi.png" flags READ mode 0666
+Feb  1 21:30:30 10.71.61.0 u104653460 open "/assets/img/clients/blue.png" flags READ mode 0666
+Feb  1 21:30:30 10.71.61.0 u104653460 close "/assets/img/clients/citi.png" bytes read 170156 written 0
+Feb  1 21:30:30 10.71.61.0 u104653460 [10.71.61.0|get|1|170156|0|0|0|2f6173736574732f696d672f636c69656e74732f636974692e706e67|]
+Feb  1 21:30:30 10.71.61.0 u104653460 close "/assets/img/clients/blue.png" bytes read 45686 written 0
+Feb  1 21:30:30 10.71.61.0 u104653460 [10.71.61.0|get|0|45686|0|0|0|2f6173736574732f696d672f636c69656e74732f626c75652e706e67|]
+Feb  1 21:30:30 10.71.61.0 u104653460 open "/assets/img/clients/client-1.png" flags READ mode 0666
+Feb  1 21:30:30 10.71.61.0 u104653460 open "/assets/img/clients/client-2.png" flags READ mode 0666
+Feb  1 21:30:30 10.71.61.0 u104653460 close "/assets/img/clients/client-1.png" bytes read 5282 written 0
+Feb  1 21:30:30 10.71.61.0 u104653460 [10.71.61.0|get|0|5282|0|0|0|2f6173736574732f696d672f636c69656e74732f636c69656e742d312e706e67|]
+Feb  1 21:30:30 10.71.61.0 u104653460 close "/assets/img/clients/client-2.png" bytes read 4582 written 0
+Feb  1 21:30:30 10.71.61.0 u104653460 [10.71.61.0|get|0|4582|0|0|0|2f6173736574732f696d672f636c69656e74732f636c69656e742d322e706e67|]
+Feb  1 21:30:30 10.71.61.0 u104653460 open "/assets/img/clients/client-6.png" flags READ mode 0666
+Feb  1 21:30:30 10.71.61.0 u104653460 open "/assets/img/clients/client-3.png" flags READ mode 0666
+Feb  1 21:30:31 10.71.61.0 u104653460 close "/assets/img/clients/client-6.png" bytes read 3450 written 0
+Feb  1 21:30:31 10.71.61.0 u104653460 [10.71.61.0|get|1|3450|0|0|0|2f6173736574732f696d672f636c69656e74732f636c69656e742d362e706e67|]
+Feb  1 21:30:31 10.71.61.0 u104653460 close "/assets/img/clients/client-3.png" bytes read 4707 written 0
+Feb  1 21:30:31 10.71.61.0 u104653460 [10.71.61.0|get|1|4707|0|0|0|2f6173736574732f696d672f636c69656e74732f636c69656e742d332e706e67|]
+Feb  1 21:30:31 10.71.61.0 u104653460 open "/assets/img/clients/client-4.png" flags READ mode 0666
+Feb  1 21:30:31 10.71.61.0 u104653460 open "/assets/img/clients/client-5.png" flags READ mode 0666
+Feb  1 21:30:31 10.71.61.0 u104653460 close "/assets/img/clients/client-4.png" bytes read 9010 written 0
+Feb  1 21:30:31 10.71.61.0 u104653460 [10.71.61.0|get|0|9010|0|0|0|2f6173736574732f696d672f636c69656e74732f636c69656e742d342e706e67|]
+Feb  1 21:30:31 10.71.61.0 u104653460 close "/assets/img/clients/client-5.png" bytes read 5123 written 0
+Feb  1 21:30:31 10.71.61.0 u104653460 [10.71.61.0|get|0|5123|0|0|0|2f6173736574732f696d672f636c69656e74732f636c69656e742d352e706e67|]
+Feb  1 21:30:31 10.71.61.0 u104653460 open "/assets/img/programs/etl_1.png" flags READ mode 0666
+Feb  1 21:30:31 10.71.61.0 u104653460 open "/assets/img/programs/etl.png" flags READ mode 0666
+Feb  1 21:30:32 10.71.61.0 u104653460 close "/assets/img/programs/etl_1.png" bytes read 4283 written 0
+Feb  1 21:30:32 10.71.61.0 u104653460 [10.71.61.0|get|1|4283|0|0|0|2f6173736574732f696d672f70726f6772616d732f65746c5f312e706e67|]
+Feb  1 21:30:32 10.71.61.0 u104653460 close "/assets/img/programs/etl.png" bytes read 4944 written 0
+Feb  1 21:30:32 10.71.61.0 u104653460 [10.71.61.0|get|1|4944|0|0|0|2f6173736574732f696d672f70726f6772616d732f65746c2e706e67|]
+Feb  1 21:30:32 10.71.61.0 u104653460 open "/assets/img/programs/talend.png" flags READ mode 0666
+Feb  1 21:30:32 10.71.61.0 u104653460 open "/assets/img/programs/java.png" flags READ mode 0666
+Feb  1 21:30:32 10.71.61.0 u104653460 close "/assets/img/programs/talend.png" bytes read 4828 written 0
+Feb  1 21:30:32 10.71.61.0 u104653460 [10.71.61.0|get|0|4828|0|0|0|2f6173736574732f696d672f70726f6772616d732f74616c656e642e706e67|]
+Feb  1 21:30:32 10.71.61.0 u104653460 close "/assets/img/programs/java.png" bytes read 3727 written 0
+Feb  1 21:30:32 10.71.61.0 u104653460 [10.71.61.0|get|0|3727|0|0|0|2f6173736574732f696d672f70726f6772616d732f6a6176612e706e67|]
+Feb  1 21:30:32 10.71.61.0 u104653460 open "/assets/img/programs/Cyber.png" flags READ mode 0666
+Feb  1 21:30:32 10.71.61.0 u104653460 close "/assets/img/programs/Cyber.png" bytes read 3482 written 0
+Feb  1 21:30:32 10.71.61.0 u104653460 [10.71.61.0|get|0|3482|0|0|0|2f6173736574732f696d672f70726f6772616d732f43796265722e706e67|]
+Feb  1 21:30:33 10.71.61.0 u104653460 open "/assets/img/team/team-4.jpg" flags READ mode 0666
+Feb  1 21:30:33 10.71.61.0 u104653460 close "/assets/img/team/team-4.jpg" bytes read 27423 written 0
+Feb  1 21:30:33 10.71.61.0 u104653460 [10.71.61.0|get|0|27423|0|0|0|2f6173736574732f696d672f7465616d2f7465616d2d342e6a7067|]
+Feb  1 21:30:33 10.71.61.0 u104653460 open "/assets/img/team/team-5.jpg" flags READ mode 0666
+Feb  1 21:30:33 10.71.61.0 u104653460 open "/assets/img/team/team-6.png" flags READ mode 0666
+Feb  1 21:30:33 10.71.61.0 u104653460 close "/assets/img/team/team-5.jpg" bytes read 86672 written 0
+Feb  1 21:30:33 10.71.61.0 u104653460 [10.71.61.0|get|0|86672|0|0|0|2f6173736574732f696d672f7465616d2f7465616d2d352e6a7067|]
+Feb  1 21:30:33 10.71.61.0 u104653460 open "/assets/img/team/team-2.jpg" flags READ mode 0666
+Feb  1 21:30:33 10.71.61.0 u104653460 close "/assets/img/team/team-6.png" bytes read 188599 written 0
+Feb  1 21:30:33 10.71.61.0 u104653460 [10.71.61.0|get|0|188599|0|0|0|2f6173736574732f696d672f7465616d2f7465616d2d362e706e67|]
+Feb  1 21:30:34 10.71.61.0 u104653460 open "/assets/img/team/team-3.jpg" flags READ mode 0666
+Feb  1 21:30:34 10.71.61.0 u104653460 close "/assets/img/team/team-2.jpg" bytes read 49059 written 0
+Feb  1 21:30:34 10.71.61.0 u104653460 [10.71.61.0|get|1|49059|0|0|0|2f6173736574732f696d672f7465616d2f7465616d2d322e6a7067|]
+Feb  1 21:30:34 10.71.61.0 u104653460 open "/assets/img/team/team-1.jpg" flags READ mode 0666
+Feb  1 21:30:34 10.71.61.0 u104653460 close "/assets/img/team/team-3.jpg" bytes read 36680 written 0
+Feb  1 21:30:34 10.71.61.0 u104653460 [10.71.61.0|get|0|36680|0|0|0|2f6173736574732f696d672f7465616d2f7465616d2d332e6a7067|]
+Feb  1 21:30:34 10.71.61.0 u104653460 close "/assets/img/team/team-1.jpg" bytes read 40201 written 0
+Feb  1 21:30:34 10.71.61.0 u104653460 [10.71.61.0|get|0|40201|0|0|0|2f6173736574732f696d672f7465616d2f7465616d2d312e6a7067|]
+Feb  1 21:30:34 10.71.61.0 u104653460 open "/assets/img/team/team-0.jpg" flags READ mode 0666
+Feb  1 21:30:34 10.71.61.0 u104653460 close "/assets/img/team/team-0.jpg" bytes read 29135 written 0
+Feb  1 21:30:34 10.71.61.0 u104653460 [10.71.61.0|get|0|29135|0|0|0|2f6173736574732f696d672f7465616d2f7465616d2d302e6a7067|]
+Feb  1 21:30:34 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-details-3.jpg" flags READ mode 0666
+Feb  1 21:30:35 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-details-3.jpg" bytes read 64737 written 0
+Feb  1 21:30:35 10.71.61.0 u104653460 [10.71.61.0|get|1|64737|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d64657461696c732d332e6a7067|]
+Feb  1 21:30:35 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-details-2.jpg" flags READ mode 0666
+Feb  1 21:30:35 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-8.jpg" flags READ mode 0666
+Feb  1 21:30:35 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-details-2.jpg" bytes read 139811 written 0
+Feb  1 21:30:35 10.71.61.0 u104653460 [10.71.61.0|get|0|139811|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d64657461696c732d322e6a7067|]
+Feb  1 21:30:35 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-8.jpg" bytes read 29790 written 0
+Feb  1 21:30:35 10.71.61.0 u104653460 [10.71.61.0|get|0|29790|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d382e6a7067|]
+Feb  1 21:30:35 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-9.jpg" flags READ mode 0666
+Feb  1 21:30:35 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-details-1.jpg" flags READ mode 0666
+Feb  1 21:30:35 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-9.jpg" bytes read 23422 written 0
+Feb  1 21:30:35 10.71.61.0 u104653460 [10.71.61.0|get|0|23422|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d392e6a7067|]
+Feb  1 21:30:35 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-details-1.jpg" bytes read 124864 written 0
+Feb  1 21:30:35 10.71.61.0 u104653460 [10.71.61.0|get|0|124864|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d64657461696c732d312e6a7067|]
+Feb  1 21:30:36 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-2.jpg" flags READ mode 0666
+Feb  1 21:30:36 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-3.jpg" flags READ mode 0666
+Feb  1 21:30:36 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-3.jpg" bytes read 19157 written 0
+Feb  1 21:30:36 10.71.61.0 u104653460 [10.71.61.0|get|0|19157|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d332e6a7067|]
+Feb  1 21:30:36 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-2.jpg" bytes read 146969 written 0
+Feb  1 21:30:36 10.71.61.0 u104653460 [10.71.61.0|get|0|146969|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d322e6a7067|]
+Feb  1 21:30:36 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-1.jpg" flags READ mode 0666
+Feb  1 21:30:36 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-4.jpg" flags READ mode 0666
+Feb  1 21:30:36 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-1.jpg" bytes read 25343 written 0
+Feb  1 21:30:36 10.71.61.0 u104653460 [10.71.61.0|get|0|25343|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d312e6a7067|]
+Feb  1 21:30:36 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-4.jpg" bytes read 17934 written 0
+Feb  1 21:30:36 10.71.61.0 u104653460 [10.71.61.0|get|0|17934|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d342e6a7067|]
+Feb  1 21:30:36 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-5.jpg" flags READ mode 0666
+Feb  1 21:30:37 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-7.jpg" flags READ mode 0666
+Feb  1 21:30:37 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-5.jpg" bytes read 21473 written 0
+Feb  1 21:30:37 10.71.61.0 u104653460 [10.71.61.0|get|1|21473|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d352e6a7067|]
+Feb  1 21:30:37 10.71.61.0 u104653460 open "/assets/img/portfolio/portfolio-6.jpg" flags READ mode 0666
+Feb  1 21:30:37 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-7.jpg" bytes read 96574 written 0
+Feb  1 21:30:37 10.71.61.0 u104653460 [10.71.61.0|get|0|96574|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d372e6a7067|]
+Feb  1 21:30:37 10.71.61.0 u104653460 close "/assets/img/portfolio/portfolio-6.jpg" bytes read 21797 written 0
+Feb  1 21:30:37 10.71.61.0 u104653460 [10.71.61.0|get|0|21797|0|0|0|2f6173736574732f696d672f706f7274666f6c696f2f706f7274666f6c696f2d362e6a7067|]
+Feb  1 21:30:37 10.71.61.0 u104653460 open "/assets/vendor/swiper/swiper-bundle.min.js" flags READ mode 0666
+Feb  1 21:30:37 10.71.61.0 u104653460 open "/assets/vendor/swiper/swiper-bundle.min.css" flags READ mode 0666
+Feb  1 21:30:38 10.71.61.0 u104653460 close "/assets/vendor/swiper/swiper-bundle.min.js" bytes read 135005 written 0
+Feb  1 21:30:38 10.71.61.0 u104653460 [10.71.61.0|get|1|135005|0|0|0|2f6173736574732f76656e646f722f7377697065722f7377697065722d62756e646c652e6d696e2e6a73|]
+Feb  1 21:30:38 10.71.61.0 u104653460 close "/assets/vendor/swiper/swiper-bundle.min.css" bytes read 15564 written 0
+Feb  1 21:30:38 10.71.61.0 u104653460 [10.71.61.0|get|1|15564|0|0|0|2f6173736574732f76656e646f722f7377697065722f7377697065722d62756e646c652e6d696e2e637373|]
+Feb  1 21:30:38 10.71.61.0 u104653460 open "/assets/vendor/isotope-layout/isotope.pkgd.js" flags READ mode 0666
+Feb  1 21:30:38 10.71.61.0 u104653460 open "/assets/vendor/isotope-layout/isotope.pkgd.min.js" flags READ mode 0666
+Feb  1 21:30:38 10.71.61.0 u104653460 close "/assets/vendor/isotope-layout/isotope.pkgd.js" bytes read 91398 written 0
+Feb  1 21:30:38 10.71.61.0 u104653460 [10.71.61.0|get|0|91398|0|0|0|2f6173736574732f76656e646f722f69736f746f70652d6c61796f75742f69736f746f70652e706b67642e6a73|]
+Feb  1 21:30:38 10.71.61.0 u104653460 close "/assets/vendor/isotope-layout/isotope.pkgd.min.js" bytes read 35445 written 0
+Feb  1 21:30:38 10.71.61.0 u104653460 [10.71.61.0|get|0|35445|0|0|0|2f6173736574732f76656e646f722f69736f746f70652d6c61796f75742f69736f746f70652e706b67642e6d696e2e6a73|]
+Feb  1 21:30:39 10.71.61.0 u104653460 open "/assets/vendor/waypoints/noframework.waypoints.js" flags READ mode 0666
+Feb  1 21:30:39 10.71.61.0 u104653460 open "/assets/vendor/bootstrap-icons/bootstrap-icons.json" flags READ mode 0666
+Feb  1 21:30:39 10.71.61.0 u104653460 close "/assets/vendor/waypoints/noframework.waypoints.js" bytes read 21112 written 0
+Feb  1 21:30:39 10.71.61.0 u104653460 [10.71.61.0|get|0|21112|0|0|0|2f6173736574732f76656e646f722f776179706f696e74732f6e6f6672616d65776f726b2e776179706f696e74732e6a73|]
+Feb  1 21:30:39 10.71.61.0 u104653460 close "/assets/vendor/bootstrap-icons/bootstrap-icons.json" bytes read 34982 written 0
+Feb  1 21:30:39 10.71.61.0 u104653460 [10.71.61.0|get|0|34982|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702d69636f6e732f626f6f7473747261702d69636f6e732e6a736f6e|]
+Feb  1 21:30:39 10.71.61.0 u104653460 open "/assets/vendor/bootstrap-icons/index.html" flags READ mode 0666
+Feb  1 21:30:39 10.71.61.0 u104653460 open "/assets/vendor/bootstrap-icons/bootstrap-icons.css" flags READ mode 0666
+Feb  1 21:30:39 10.71.61.0 u104653460 close "/assets/vendor/bootstrap-icons/index.html" bytes read 165403 written 0
+Feb  1 21:30:39 10.71.61.0 u104653460 [10.71.61.0|get|0|165403|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702d69636f6e732f696e6465782e68746d6c|]
+Feb  1 21:30:39 10.71.61.0 u104653460 close "/assets/vendor/bootstrap-icons/bootstrap-icons.css" bytes read 65696 written 0
+Feb  1 21:30:39 10.71.61.0 u104653460 [10.71.61.0|get|0|65696|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702d69636f6e732f626f6f7473747261702d69636f6e732e637373|]
+Feb  1 21:30:40 10.71.61.0 u104653460 open "/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" flags READ mode 0666
+Feb  1 21:30:40 10.71.61.0 u104653460 open "/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" flags READ mode 0666
+Feb  1 21:30:40 10.71.61.0 u104653460 close "/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" bytes read 90528 written 0
+Feb  1 21:30:40 10.71.61.0 u104653460 [10.71.61.0|get|0|90528|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702d69636f6e732f666f6e74732f626f6f7473747261702d69636f6e732e776f666632|]
+Feb  1 21:30:40 10.71.61.0 u104653460 close "/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" bytes read 120468 written 0
+Feb  1 21:30:40 10.71.61.0 u104653460 [10.71.61.0|get|0|120468|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702d69636f6e732f666f6e74732f626f6f7473747261702d69636f6e732e776f6666|]
+Feb  1 21:30:40 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.woff" flags READ mode 0666
+Feb  1 21:30:40 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.ttf" flags READ mode 0666
+Feb  1 21:30:40 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.woff" bytes read 172876 written 0
+Feb  1 21:30:40 10.71.61.0 u104653460 [10.71.61.0|get|0|172876|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e776f6666|]
+Feb  1 21:30:41 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.symbol.svg" flags READ mode 0666
+Feb  1 21:30:41 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.ttf" bytes read 403056 written 0
+Feb  1 21:30:41 10.71.61.0 u104653460 [10.71.61.0|get|1|403056|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e747466|]
+Feb  1 21:30:41 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.symbol.svg" bytes read 897931 written 0
+Feb  1 21:30:41 10.71.61.0 u104653460 [10.71.61.0|get|0|897931|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e73796d626f6c2e737667|]
+Feb  1 21:30:41 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.eot" flags READ mode 0666
+Feb  1 21:30:41 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.svg" flags READ mode 0666
+Feb  1 21:30:41 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.svg" bytes read 1195522 written 0
+Feb  1 21:30:41 10.71.61.0 u104653460 [10.71.61.0|get|0|1195522|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e737667|]
+Feb  1 21:30:42 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.eot" bytes read 403228 written 0
+Feb  1 21:30:42 10.71.61.0 u104653460 [10.71.61.0|get|1|403228|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e656f74|]
+Feb  1 21:30:42 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.less" flags READ mode 0666
+Feb  1 21:30:42 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.woff2" flags READ mode 0666
+Feb  1 21:30:42 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.less" bytes read 110450 written 0
+Feb  1 21:30:42 10.71.61.0 u104653460 [10.71.61.0|get|0|110450|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e6c657373|]
+Feb  1 21:30:42 10.71.60.0 u104653460 sent status No such file
+Feb  1 21:30:42 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.woff2" bytes read 125268 written 0
+Feb  1 21:30:42 10.71.61.0 u104653460 [10.71.61.0|get|0|125268|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e776f666632|]
+Feb  1 21:30:42 10.71.61.0 u104653460 open "/assets/vendor/remixicon/remixicon.css" flags READ mode 0666
+Feb  1 21:30:42 10.71.61.0 u104653460 close "/assets/vendor/remixicon/remixicon.css" bytes read 110438 written 0
+Feb  1 21:30:42 10.71.61.0 u104653460 [10.71.61.0|get|0|110438|0|0|0|2f6173736574732f76656e646f722f72656d697869636f6e2f72656d697869636f6e2e637373|]
+Feb  1 21:30:42 10.71.61.0 u104653460 open "/assets/vendor/aos/aos.js" flags READ mode 0666
+Feb  1 21:30:43 10.71.61.0 u104653460 close "/assets/vendor/aos/aos.js" bytes read 14690 written 0
+Feb  1 21:30:43 10.71.61.0 u104653460 [10.71.61.0|get|1|14690|0|0|0|2f6173736574732f76656e646f722f616f732f616f732e6a73|]
+Feb  1 21:30:43 10.71.61.0 u104653460 open "/assets/vendor/aos/aos.css" flags READ mode 0666
+Feb  1 21:30:43 10.71.61.0 u104653460 close "/assets/vendor/aos/aos.css" bytes read 26053 written 0
+Feb  1 21:30:43 10.71.61.0 u104653460 [10.71.61.0|get|0|26053|0|0|0|2f6173736574732f76656e646f722f616f732f616f732e637373|]
+Feb  1 21:30:43 10.71.61.0 u104653460 open "/assets/vendor/php-email-form/php-email-form-notify.php" flags READ mode 0666
+Feb  1 21:30:43 10.71.61.0 u104653460 open "/assets/vendor/php-email-form/php-email-form.php" flags READ mode 0666
+Feb  1 21:30:43 10.71.61.0 u104653460 close "/assets/vendor/php-email-form/php-email-form-notify.php" bytes read 222828 written 0
+Feb  1 21:30:43 10.71.61.0 u104653460 [10.71.61.0|get|0|222828|0|0|0|2f6173736574732f76656e646f722f7068702d656d61696c2d666f726d2f7068702d656d61696c2d666f726d2d6e6f746966792e706870|]
+Feb  1 21:30:43 10.71.61.0 u104653460 close "/assets/vendor/php-email-form/php-email-form.php" bytes read 224816 written 0
+Feb  1 21:30:43 10.71.61.0 u104653460 [10.71.61.0|get|0|224816|0|0|0|2f6173736574732f76656e646f722f7068702d656d61696c2d666f726d2f7068702d656d61696c2d666f726d2e706870|]
+Feb  1 21:30:44 10.71.61.0 u104653460 open "/assets/vendor/php-email-form/validate.js" flags READ mode 0666
+Feb  1 21:30:44 10.71.61.0 u104653460 close "/assets/vendor/php-email-form/validate.js" bytes read 2731 written 0
+Feb  1 21:30:44 10.71.61.0 u104653460 [10.71.61.0|get|0|2731|0|0|0|2f6173736574732f76656e646f722f7068702d656d61696c2d666f726d2f76616c69646174652e6a73|]
+Feb  1 21:30:44 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" flags READ mode 0666
+Feb  1 21:30:44 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" bytes read 109455 written 0
+Feb  1 21:30:44 10.71.61.0 u104653460 [10.71.61.0|get|0|109455|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e6373732e6d6170|]
+Feb  1 21:30:44 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" flags READ mode 0666
+Feb  1 21:30:44 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" flags READ mode 0666
+Feb  1 21:30:44 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" bytes read 72349 written 0
+Feb  1 21:30:44 10.71.61.0 u104653460 [10.71.61.0|get|0|72349|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e72746c2e637373|]
+Feb  1 21:30:44 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" bytes read 122193 written 0
+Feb  1 21:30:44 10.71.61.0 u104653460 [10.71.61.0|get|0|122193|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e6d696e2e6373732e6d6170|]
+Feb  1 21:30:45 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" flags READ mode 0666
+Feb  1 21:30:45 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" flags READ mode 0666
+Feb  1 21:30:45 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" bytes read 6150 written 0
+Feb  1 21:30:45 10.71.61.0 u104653460 [10.71.61.0|get|0|6150|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e72746c2e6d696e2e637373|]
+Feb  1 21:30:45 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" bytes read 53416 written 0
+Feb  1 21:30:45 10.71.61.0 u104653460 [10.71.61.0|get|0|53416|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e72746c2e6d696e2e637373|]
+Feb  1 21:30:45 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" flags READ mode 0666
+Feb  1 21:30:45 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.css" flags READ mode 0666
+Feb  1 21:30:45 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.css" bytes read 72275 written 0
+Feb  1 21:30:45 10.71.61.0 u104653460 [10.71.61.0|get|0|72275|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e637373|]
+Feb  1 21:30:45 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" bytes read 192608 written 0
+Feb  1 21:30:45 10.71.61.0 u104653460 [10.71.61.0|get|0|192608|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e6373732e6d6170|]
+Feb  1 21:30:45 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.css" flags READ mode 0666
+Feb  1 21:30:45 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" flags READ mode 0666
+Feb  1 21:30:46 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.css" bytes read 7527 written 0
+Feb  1 21:30:46 10.71.61.0 u104653460 [10.71.61.0|get|1|7527|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e637373|]
+Feb  1 21:30:46 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" bytes read 53488 written 0
+Feb  1 21:30:46 10.71.61.0 u104653460 [10.71.61.0|get|1|53488|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e6d696e2e637373|]
+Feb  1 21:30:46 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" flags READ mode 0666
+Feb  1 21:30:46 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" flags READ mode 0666
+Feb  1 21:30:46 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" bytes read 192551 written 0
+Feb  1 21:30:46 10.71.61.0 u104653460 [10.71.61.0|get|0|192551|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e72746c2e6373732e6d6170|]
+Feb  1 21:30:46 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" bytes read 109468 written 0
+Feb  1 21:30:46 10.71.61.0 u104653460 [10.71.61.0|get|0|109468|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e72746c2e6373732e6d6170|]
+Feb  1 21:30:46 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.rtl.css" flags READ mode 0666
+Feb  1 21:30:46 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" flags READ mode 0666
+Feb  1 21:30:47 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.rtl.css" bytes read 203853 written 0
+Feb  1 21:30:47 10.71.61.0 u104653460 [10.71.61.0|get|1|203853|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e72746c2e637373|]
+Feb  1 21:30:47 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" bytes read 111719 written 0
+Feb  1 21:30:47 10.71.61.0 u104653460 [10.71.61.0|get|1|111719|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e72746c2e6d696e2e6373732e6d6170|]
+Feb  1 21:30:47 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" flags READ mode 0666
+Feb  1 21:30:47 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.min.css.map" flags READ mode 0666
+Feb  1 21:30:47 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" bytes read 6078 written 0
+Feb  1 21:30:47 10.71.61.0 u104653460 [10.71.61.0|get|0|6078|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e6d696e2e637373|]
+Feb  1 21:30:47 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" flags READ mode 0666
+Feb  1 21:30:47 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.min.css.map" bytes read 449257 written 0
+Feb  1 21:30:47 10.71.61.0 u104653460 [10.71.61.0|get|0|449257|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e6d696e2e6373732e6d6170|]
+Feb  1 21:30:47 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" bytes read 201258 written 0
+Feb  1 21:30:47 10.71.61.0 u104653460 [10.71.61.0|get|0|201258|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e72746c2e6373732e6d6170|]
+Feb  1 21:30:47 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.css.map" flags READ mode 0666
+Feb  1 21:30:48 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" flags READ mode 0666
+Feb  1 21:30:48 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" bytes read 162869 written 0
+Feb  1 21:30:48 10.71.61.0 u104653460 [10.71.61.0|get|0|162869|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e72746c2e6d696e2e637373|]
+Feb  1 21:30:48 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.css.map" bytes read 537020 written 0
+Feb  1 21:30:48 10.71.61.0 u104653460 [10.71.61.0|get|1|537020|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e6373732e6d6170|]
+Feb  1 21:30:48 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.min.css" flags READ mode 0666
+Feb  1 21:30:48 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.css.map" flags READ mode 0666
+Feb  1 21:30:48 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.min.css" bytes read 52805 written 0
+Feb  1 21:30:48 10.71.61.0 u104653460 [10.71.61.0|get|0|52805|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e6d696e2e637373|]
+Feb  1 21:30:48 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.css.map" bytes read 201254 written 0
+Feb  1 21:30:48 10.71.61.0 u104653460 [10.71.61.0|get|0|201254|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e6373732e6d6170|]
+Feb  1 21:30:48 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" flags READ mode 0666
+Feb  1 21:30:49 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.css" flags READ mode 0666
+Feb  1 21:30:49 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" bytes read 111884 written 0
+Feb  1 21:30:49 10.71.61.0 u104653460 [10.71.61.0|get|1|111884|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e6d696e2e6373732e6d6170|]
+Feb  1 21:30:49 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.css" bytes read 204186 written 0
+Feb  1 21:30:49 10.71.61.0 u104653460 [10.71.61.0|get|0|204186|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e637373|]
+Feb  1 21:30:49 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" flags READ mode 0666
+Feb  1 21:30:49 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.css" flags READ mode 0666
+Feb  1 21:30:49 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" bytes read 47646 written 0
+Feb  1 21:30:49 10.71.61.0 u104653460 [10.71.61.0|get|0|47646|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e72746c2e6d696e2e6373732e6d6170|]
+Feb  1 21:30:49 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.css" bytes read 71593 written 0
+Feb  1 21:30:49 10.71.61.0 u104653460 [10.71.61.0|get|0|71593|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e637373|]
+Feb  1 21:30:49 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" flags READ mode 0666
+Feb  1 21:30:49 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" flags READ mode 0666
+Feb  1 21:30:50 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" bytes read 39659 written 0
+Feb  1 21:30:50 10.71.61.0 u104653460 [10.71.61.0|get|1|39659|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e6d696e2e6373732e6d6170|]
+Feb  1 21:30:50 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" bytes read 7504 written 0
+Feb  1 21:30:50 10.71.61.0 u104653460 [10.71.61.0|get|1|7504|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7265626f6f742e72746c2e637373|]
+Feb  1 21:30:50 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" flags READ mode 0666
+Feb  1 21:30:50 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" flags READ mode 0666
+Feb  1 21:30:50 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" bytes read 536934 written 0
+Feb  1 21:30:50 10.71.61.0 u104653460 [10.71.61.0|get|0|536934|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e72746c2e6373732e6d6170|]
+Feb  1 21:30:50 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" flags READ mode 0666
+Feb  1 21:30:50 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" bytes read 661232 written 0
+Feb  1 21:30:50 10.71.61.0 u104653460 [10.71.61.0|get|0|661232|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e72746c2e6d696e2e6373732e6d6170|]
+Feb  1 21:30:50 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" bytes read 122270 written 0
+Feb  1 21:30:50 10.71.61.0 u104653460 [10.71.61.0|get|0|122270|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e72746c2e6d696e2e6373732e6d6170|]
+Feb  1 21:30:50 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" flags READ mode 0666
+Feb  1 21:30:51 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap.min.css" flags READ mode 0666
+Feb  1 21:30:51 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" bytes read 71460 written 0
+Feb  1 21:30:51 10.71.61.0 u104653460 [10.71.61.0|get|1|71460|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d7574696c69746965732e72746c2e637373|]
+Feb  1 21:30:51 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap.min.css" bytes read 162764 written 0
+Feb  1 21:30:51 10.71.61.0 u104653460 [10.71.61.0|get|0|162764|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702e6d696e2e637373|]
+Feb  1 21:30:51 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" flags READ mode 0666
+Feb  1 21:30:51 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" bytes read 52880 written 0
+Feb  1 21:30:51 10.71.61.0 u104653460 [10.71.61.0|get|0|52880|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6373732f626f6f7473747261702d677269642e72746c2e6d696e2e637373|]
+Feb  1 21:30:51 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.min.js.map" flags READ mode 0666
+Feb  1 21:30:51 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.min.js.map" bytes read 218042 written 0
+Feb  1 21:30:51 10.71.61.0 u104653460 [10.71.61.0|get|0|218042|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e6d696e2e6a732e6d6170|]
+Feb  1 21:30:52 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.js.map" flags READ mode 0666
+Feb  1 21:30:52 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" flags READ mode 0666
+Feb  1 21:30:52 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" bytes read 223440 written 0
+Feb  1 21:30:52 10.71.61.0 u104653460 [10.71.61.0|get|0|223440|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e65736d2e6d696e2e6a732e6d6170|]
+Feb  1 21:30:52 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.js.map" bytes read 290658 written 0
+Feb  1 21:30:52 10.71.61.0 u104653460 [10.71.61.0|get|0|290658|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e6a732e6d6170|]
+Feb  1 21:30:52 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.min.js" flags READ mode 0666
+Feb  1 21:30:52 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" flags READ mode 0666
+Feb  1 21:30:52 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.min.js" bytes read 59733 written 0
+Feb  1 21:30:52 10.71.61.0 u104653460 [10.71.61.0|get|0|59733|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e6d696e2e6a73|]
+Feb  1 21:30:52 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" bytes read 78871 written 0
+Feb  1 21:30:52 10.71.61.0 u104653460 [10.71.61.0|get|0|78871|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e62756e646c652e6d696e2e6a73|]
+Feb  1 21:30:52 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.js" flags READ mode 0666
+Feb  1 21:30:53 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.esm.js.map" flags READ mode 0666
+Feb  1 21:30:53 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.js" bytes read 148821 written 0
+Feb  1 21:30:53 10.71.61.0 u104653460 [10.71.61.0|get|1|148821|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e6a73|]
+Feb  1 21:30:53 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.esm.js.map" bytes read 289456 written 0
+Feb  1 21:30:53 10.71.61.0 u104653460 [10.71.61.0|get|0|289456|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e65736d2e6a732e6d6170|]
+Feb  1 21:30:53 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" flags READ mode 0666
+Feb  1 21:30:53 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" flags READ mode 0666
+Feb  1 21:30:53 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" bytes read 427865 written 0
+Feb  1 21:30:53 10.71.61.0 u104653460 [10.71.61.0|get|0|427865|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e62756e646c652e6a732e6d6170|]
+Feb  1 21:30:53 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.bundle.js" flags READ mode 0666
+Feb  1 21:30:53 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" bytes read 329091 written 0
+Feb  1 21:30:53 10.71.61.0 u104653460 [10.71.61.0|get|0|329091|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e62756e646c652e6d696e2e6a732e6d6170|]
+Feb  1 21:30:54 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.bundle.js" bytes read 209703 written 0
+Feb  1 21:30:54 10.71.61.0 u104653460 [10.71.61.0|get|1|209703|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e62756e646c652e6a73|]
+Feb  1 21:30:54 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.esm.min.js" flags READ mode 0666
+Feb  1 21:30:54 10.71.61.0 u104653460 open "/assets/vendor/bootstrap/js/bootstrap.esm.js" flags READ mode 0666
+Feb  1 21:30:54 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.esm.min.js" bytes read 72284 written 0
+Feb  1 21:30:54 10.71.61.0 u104653460 [10.71.61.0|get|0|72284|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e65736d2e6d696e2e6a73|]
+Feb  1 21:30:54 10.71.61.0 u104653460 close "/assets/vendor/bootstrap/js/bootstrap.esm.js" bytes read 139644 written 0
+Feb  1 21:30:54 10.71.61.0 u104653460 [10.71.61.0|get|0|139644|0|0|0|2f6173736574732f76656e646f722f626f6f7473747261702f6a732f626f6f7473747261702e65736d2e6a73|]
+Feb  1 21:30:54 10.71.61.0 u104653460 open "/assets/vendor/glightbox/css/glightbox.css" flags READ mode 0666
+Feb  1 21:30:54 10.71.61.0 u104653460 open "/assets/vendor/glightbox/css/glightbox.min.css" flags READ mode 0666
+Feb  1 21:30:54 10.71.61.0 u104653460 close "/assets/vendor/glightbox/css/glightbox.css" bytes read 17428 written 0
+Feb  1 21:30:54 10.71.61.0 u104653460 [10.71.61.0|get|0|17428|0|0|0|2f6173736574732f76656e646f722f676c69676874626f782f6373732f676c69676874626f782e637373|]
+Feb  1 21:30:55 10.71.61.0 u104653460 close "/assets/vendor/glightbox/css/glightbox.min.css" bytes read 13785 written 0
+Feb  1 21:30:55 10.71.61.0 u104653460 [10.71.61.0|get|1|13785|0|0|0|2f6173736574732f76656e646f722f676c69676874626f782f6373732f676c69676874626f782e6d696e2e637373|]
+Feb  1 21:30:55 10.71.61.0 u104653460 open "/assets/vendor/glightbox/js/glightbox.js" flags READ mode 0666
+Feb  1 21:30:55 10.71.61.0 u104653460 open "/assets/vendor/glightbox/js/glightbox.min.js" flags READ mode 0666
+Feb  1 21:30:55 10.71.61.0 u104653460 close "/assets/vendor/glightbox/js/glightbox.js" bytes read 110188 written 0
+Feb  1 21:30:55 10.71.61.0 u104653460 [10.71.61.0|get|0|110188|0|0|0|2f6173736574732f76656e646f722f676c69676874626f782f6a732f676c69676874626f782e6a73|]
+Feb  1 21:30:55 10.71.61.0 u104653460 close "/assets/vendor/glightbox/js/glightbox.min.js" bytes read 56222 written 0
+Feb  1 21:30:55 10.71.61.0 u104653460 [10.71.61.0|get|0|56222|0|0|0|2f6173736574732f76656e646f722f676c69676874626f782f6a732f676c69676874626f782e6d696e2e6a73|]
+Feb  1 21:30:56 10.71.61.0 u104653460 open "/assets/vendor/boxicons/css/boxicons.css" flags READ mode 0666
+Feb  1 21:30:56 10.71.61.0 u104653460 open "/assets/vendor/boxicons/css/transformations.css" flags READ mode 0666
+Feb  1 21:30:56 10.71.61.0 u104653460 close "/assets/vendor/boxicons/css/boxicons.css" bytes read 88429 written 0
+Feb  1 21:30:56 10.71.61.0 u104653460 [10.71.61.0|get|0|88429|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f6373732f626f7869636f6e732e637373|]
+Feb  1 21:30:56 10.71.61.0 u104653460 close "/assets/vendor/boxicons/css/transformations.css" bytes read 683 written 0
+Feb  1 21:30:56 10.71.61.0 u104653460 [10.71.61.0|get|0|683|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f6373732f7472616e73666f726d6174696f6e732e637373|]
+Feb  1 21:30:56 10.71.61.0 u104653460 open "/assets/vendor/boxicons/css/animations.css" flags READ mode 0666
+Feb  1 21:30:56 10.71.61.0 u104653460 open "/assets/vendor/boxicons/css/boxicons.min.css" flags READ mode 0666
+Feb  1 21:30:56 10.71.61.0 u104653460 close "/assets/vendor/boxicons/css/animations.css" bytes read 7522 written 0
+Feb  1 21:30:56 10.71.61.0 u104653460 [10.71.61.0|get|0|7522|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f6373732f616e696d6174696f6e732e637373|]
+Feb  1 21:30:56 10.71.61.0 u104653460 close "/assets/vendor/boxicons/css/boxicons.min.css" bytes read 63781 written 0
+Feb  1 21:30:56 10.71.61.0 u104653460 [10.71.61.0|get|0|63781|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f6373732f626f7869636f6e732e6d696e2e637373|]
+Feb  1 21:30:57 10.71.61.0 u104653460 open "/assets/vendor/boxicons/fonts/boxicons.svg" flags READ mode 0666
+Feb  1 21:30:57 10.71.61.0 u104653460 open "/assets/vendor/boxicons/fonts/boxicons.woff2" flags READ mode 0666
+Feb  1 21:30:57 10.71.61.0 u104653460 close "/assets/vendor/boxicons/fonts/boxicons.woff2" bytes read 102988 written 0
+Feb  1 21:30:57 10.71.61.0 u104653460 [10.71.61.0|get|0|102988|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f666f6e74732f626f7869636f6e732e776f666632|]
+Feb  1 21:30:57 10.71.61.0 u104653460 open "/assets/vendor/boxicons/fonts/boxicons.eot" flags READ mode 0666
+Feb  1 21:30:57 10.71.61.0 u104653460 close "/assets/vendor/boxicons/fonts/boxicons.svg" bytes read 1125137 written 0
+Feb  1 21:30:57 10.71.61.0 u104653460 [10.71.61.0|get|0|1125137|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f666f6e74732f626f7869636f6e732e737667|]
+Feb  1 21:30:57 10.71.61.0 u104653460 close "/assets/vendor/boxicons/fonts/boxicons.eot" bytes read 292572 written 0
+Feb  1 21:30:57 10.71.61.0 u104653460 [10.71.61.0|get|0|292572|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f666f6e74732f626f7869636f6e732e656f74|]
+Feb  1 21:30:57 10.71.61.0 u104653460 open "/assets/vendor/boxicons/fonts/boxicons.ttf" flags READ mode 0666
+Feb  1 21:30:57 10.71.61.0 u104653460 open "/assets/vendor/boxicons/fonts/boxicons.woff" flags READ mode 0666
+Feb  1 21:30:58 10.71.61.0 u104653460 close "/assets/vendor/boxicons/fonts/boxicons.ttf" bytes read 292404 written 0
+Feb  1 21:30:58 10.71.61.0 u104653460 [10.71.61.0|get|1|292404|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f666f6e74732f626f7869636f6e732e747466|]
+Feb  1 21:30:58 10.71.61.0 u104653460 close "/assets/vendor/boxicons/fonts/boxicons.woff" bytes read 292480 written 0
+Feb  1 21:30:58 10.71.61.0 u104653460 [10.71.61.0|get|1|292480|0|0|0|2f6173736574732f76656e646f722f626f7869636f6e732f666f6e74732f626f7869636f6e732e776f6666|]
+Feb  1 21:30:58 10.71.61.0 u104653460 open "/forms/notify.php" flags READ mode 0666
+Feb  1 21:30:58 10.71.61.0 u104653460 open "/forms/test-contact.php" flags READ mode 0666
+Feb  1 21:30:58 10.71.61.0 u104653460 close "/forms/notify.php" bytes read 1241 written 0
+Feb  1 21:30:58 10.71.61.0 u104653460 [10.71.61.0|get|0|1241|0|0|0|2f666f726d732f6e6f746966792e706870|]
+Feb  1 21:30:58 10.71.61.0 u104653460 close "/forms/test-contact.php" bytes read 268 written 0
+Feb  1 21:30:58 10.71.61.0 u104653460 [10.71.61.0|get|0|268|0|0|0|2f666f726d732f746573742d636f6e746163742e706870|]
+Feb  1 21:30:58 10.71.61.0 u104653460 open "/forms/.htaccess" flags READ mode 0666
+Feb  1 21:30:59 10.71.61.0 u104653460 open "/forms/contact.php" flags READ mode 0666
+Feb  1 21:30:59 10.71.61.0 u104653460 close "/forms/.htaccess" bytes read 143 written 0
+Feb  1 21:30:59 10.71.61.0 u104653460 [10.71.61.0|get|1|143|0|0|0|2f666f726d732f2e6874616363657373|]
+Feb  1 21:30:59 10.71.61.0 u104653460 close "/forms/contact.php" bytes read 1583 written 0
+Feb  1 21:30:59 10.71.61.0 u104653460 [10.71.61.0|get|0|1583|0|0|0|2f666f726d732f636f6e746163742e706870|]
+Feb  1 21:30:59 10.71.61.0 u104653460 open "/forms/Readme.txt" flags READ mode 0666
+Feb  1 21:30:59 10.71.61.0 u104653460 close "/forms/Readme.txt" bytes read 187 written 0
+Feb  1 21:30:59 10.71.61.0 u104653460 [10.71.61.0|get|0|187|0|0|0|2f666f726d732f526561646d652e747874|]
+Feb  1 21:30:59 10.71.61.0 u104653460 open "/logs/access.log.02.gz" flags READ mode 0666
+Feb  1 21:30:59 10.71.61.0 u104653460 close "/logs/access.log.02.gz" bytes read 8404 written 0
+Feb  1 21:30:59 10.71.61.0 u104653460 [10.71.61.0|get|0|8404|0|0|0|2f6c6f67732f6163636573732e6c6f672e30322e677a|]
+Feb  1 21:31:00 10.71.61.0 u104653460 open "/logs/access.log.01.gz" flags READ mode 0666
+Feb  1 21:31:00 10.71.61.0 u104653460 open "/logs/sftp.log.04.gz" flags READ mode 0666
+Feb  1 21:31:00 10.71.61.0 u104653460 close "/logs/access.log.01.gz" bytes read 9223 written 0
+Feb  1 21:31:00 10.71.61.0 u104653460 [10.71.61.0|get|1|9223|0|0|0|2f6c6f67732f6163636573732e6c6f672e30312e677a|]
+Feb  1 21:31:00 10.71.61.0 u104653460 close "/logs/sftp.log.04.gz" bytes read 859 written 0
+Feb  1 21:31:00 10.71.61.0 u104653460 [10.71.61.0|get|0|859|0|0|0|2f6c6f67732f736674702e6c6f672e30342e677a|]
+Feb  1 21:31:00 10.71.61.0 u104653460 open "/logs/access.log.04.2.gz" flags READ mode 0666
+Feb  1 21:31:00 10.71.61.0 u104653460 open "/logs/access.log.04.5.gz" flags READ mode 0666
+Feb  1 21:31:00 10.71.61.0 u104653460 close "/logs/access.log.04.2.gz" bytes read 5370 written 0
+Feb  1 21:31:00 10.71.61.0 u104653460 [10.71.61.0|get|0|5370|0|0|0|2f6c6f67732f6163636573732e6c6f672e30342e322e677a|]
+Feb  1 21:31:00 10.71.61.0 u104653460 close "/logs/access.log.04.5.gz" bytes read 3353 written 0
+Feb  1 21:31:00 10.71.61.0 u104653460 [10.71.61.0|get|0|3353|0|0|0|2f6c6f67732f6163636573732e6c6f672e30342e352e677a|]
+Feb  1 21:31:00 10.71.61.0 u104653460 open "/logs/access.log.04.1.gz" flags READ mode 0666
+Feb  1 21:31:00 10.71.61.0 u104653460 open "/logs/sftp.log.03.gz" flags READ mode 0666
+Feb  1 21:31:01 10.71.61.0 u104653460 close "/logs/access.log.04.1.gz" bytes read 4009 written 0
+Feb  1 21:31:01 10.71.61.0 u104653460 [10.71.61.0|get|1|4009|0|0|0|2f6c6f67732f6163636573732e6c6f672e30342e312e677a|]
+Feb  1 21:31:01 10.71.61.0 u104653460 close "/logs/sftp.log.03.gz" bytes read 1046 written 0
+Feb  1 21:31:01 10.71.61.0 u104653460 [10.71.61.0|get|1|1046|0|0|0|2f6c6f67732f736674702e6c6f672e30332e677a|]
+Feb  1 21:31:01 10.71.61.0 u104653460 open "/logs/access.log.51.gz" flags READ mode 0666
+Feb  1 21:31:01 10.71.61.0 u104653460 open "/logs/access.log.50.gz" flags READ mode 0666
+Feb  1 21:31:01 10.71.61.0 u104653460 close "/logs/access.log.51.gz" bytes read 12915 written 0
+Feb  1 21:31:01 10.71.61.0 u104653460 [10.71.61.0|get|0|12915|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e677a|]
+Feb  1 21:31:01 10.71.61.0 u104653460 close "/logs/access.log.50.gz" bytes read 10983 written 0
+Feb  1 21:31:01 10.71.61.0 u104653460 [10.71.61.0|get|0|10983|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e677a|]
+Feb  1 21:31:01 10.71.61.0 u104653460 open "/logs/access.log.49.gz" flags READ mode 0666
+Feb  1 21:31:01 10.71.61.0 u104653460 open "/logs/access.log.03.gz" flags READ mode 0666
+Feb  1 21:31:01 10.71.61.0 u104653460 close "/logs/access.log.49.gz" bytes read 11332 written 0
+Feb  1 21:31:01 10.71.61.0 u104653460 [10.71.61.0|get|0|11332|0|0|0|2f6c6f67732f6163636573732e6c6f672e34392e677a|]
+Feb  1 21:31:02 10.71.61.0 u104653460 close "/logs/access.log.03.gz" bytes read 28555 written 0
+Feb  1 21:31:02 10.71.61.0 u104653460 [10.71.61.0|get|1|28555|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e677a|]
+Feb  1 21:31:02 10.71.61.0 u104653460 open "/logs/access.log.04.7.gz" flags READ mode 0666
+Feb  1 21:31:02 10.71.61.0 u104653460 open "/logs/access.log.04.6.gz" flags READ mode 0666
+Feb  1 21:31:02 10.71.61.0 u104653460 close "/logs/access.log.04.7.gz" bytes read 2588 written 0
+Feb  1 21:31:02 10.71.61.0 u104653460 [10.71.61.0|get|0|2588|0|0|0|2f6c6f67732f6163636573732e6c6f672e30342e372e677a|]
+Feb  1 21:31:02 10.71.61.0 u104653460 close "/logs/access.log.04.6.gz" bytes read 1573 written 0
+Feb  1 21:31:02 10.71.61.0 u104653460 [10.71.61.0|get|0|1573|0|0|0|2f6c6f67732f6163636573732e6c6f672e30342e362e677a|]
+Feb  1 21:31:02 10.71.61.0 u104653460 open "/logs/access.log.04.4.gz" flags READ mode 0666
+Feb  1 21:31:02 10.71.61.0 u104653460 open "/logs/access.log.04.3.gz" flags READ mode 0666
+Feb  1 21:31:02 10.71.61.0 u104653460 close "/logs/access.log.04.4.gz" bytes read 1283 written 0
+Feb  1 21:31:02 10.71.61.0 u104653460 [10.71.61.0|get|0|1283|0|0|0|2f6c6f67732f6163636573732e6c6f672e30342e342e677a|]
+Feb  1 21:31:02 10.71.61.0 u104653460 close "/logs/access.log.04.3.gz" bytes read 2516 written 0
+Feb  1 21:31:02 10.71.61.0 u104653460 [10.71.61.0|get|0|2516|0|0|0|2f6c6f67732f6163636573732e6c6f672e30342e332e677a|]
+Feb  1 21:31:03 10.71.61.0 u104653460 open "/logs/access.log.52.gz" flags READ mode 0666
+Feb  1 21:31:03 10.71.61.0 u104653460 open "/logs/sftp.log" flags READ mode 0666
